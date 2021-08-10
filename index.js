@@ -55,13 +55,13 @@ module.exports = {
 		"@typescript-eslint/naming-convention": [ "error",
 			{
 				selector: [ "variableLike", "function" ],
-				format: [ "strictCamelCase", "UPPER_CASE" ],
+				format: [ "camelCase", "UPPER_CASE" ],
 				leadingUnderscore: "allow"
 			},
 			{
 				selector: "memberLike",
 				modifiers: [ "private" ],
-				format: [ "strictCamelCase" ],
+				format: [ "camelCase" ],
 				leadingUnderscore: "require"
 			},
 			{
