@@ -1,6 +1,6 @@
 {
   "name": "@gizmo-dev/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "description": "ESLint configuration for Gizmo projects.",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,8 @@
 	"@typescript-eslint/eslint-plugin": "^4.29.1",
 	"@typescript-eslint/parser": "^4.29.1"
   },
-  "dependencies": {
+  "devDependencies": {
+	"eslint": ">= 7",
 	"@typescript-eslint/eslint-plugin": "^4.29.1",
 	"@typescript-eslint/parser": "^4.29.1"
   }
