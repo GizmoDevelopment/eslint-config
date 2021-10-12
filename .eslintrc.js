@@ -68,6 +68,11 @@ const tsRules = {
 	"@typescript-eslint/space-before-function-paren": [ "error" ],
 	"@typescript-eslint/explicit-function-return-type": [ "error", {
 		allowExpressions: true
+	}],
+	"@typescript-eslint/member-ordering": [ "error", {
+		default: {
+			order: "alphabetically"
+		}
 	}]
 };
 
