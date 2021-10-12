@@ -70,7 +70,7 @@ const tsRules = {
 		allowExpressions: true
 	}],
 	"@typescript-eslint/member-ordering": [ "error", {
-		default: {
+		classExpressions: {
 			order: "alphabetically"
 		}
 	}]
