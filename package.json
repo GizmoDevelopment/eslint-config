@@ -1,6 +1,6 @@
 {
   "name": "@gizmo-dev/eslint-config",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "ESLint configuration for Gizmo projects.",
   "main": "index.js",
   "repository": {
