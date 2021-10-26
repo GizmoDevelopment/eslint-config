@@ -73,7 +73,9 @@ const tsRules = {
 		classExpressions: {
 			order: "alphabetically"
 		}
-	}]
+	}],
+	"@typescript-eslint/consistent-type-imports": [ "error" ],
+	"@typescript-eslint/consistent-type-exports": [ "error" ]
 };
 
 // eslint-disable-next-line no-undef
