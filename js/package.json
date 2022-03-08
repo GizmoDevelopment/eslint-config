@@ -1,26 +1,22 @@
 {
-  "name": "@gizmo-dev/eslint-config",
-  "version": "1.0.29",
-  "description": "ESLint configuration for Gizmo projects.",
+  "name": "@gizmo-dev/eslint-config-js",
+  "version": "1.0.0",
+  "description": "ESLint configuration for JavaScript projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GizmoDevelopment/eslint-config.git"
   },
-  "author": "GizmoTjaz",
+  "author": "Tjaz (GizmoTjaz)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GizmoDevelopment/eslint-config/issues"
   },
   "homepage": "https://github.com/GizmoDevelopment/eslint-confi#readme",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=5.13.0",
-    "@typescript-eslint/parser": ">=5.13.0",
     "eslint": ">=8"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=5.13.0",
-    "@typescript-eslint/parser": ">=5.13.0",
     "eslint": ">=8"
   }
 }
