@@ -15,6 +15,7 @@ const jsRules = {
 	semi: [ "error" ],
 	"space-before-function-paren": [ "error" ]
 };
+
 const tsRules = {
 	indent: "off",
 	"@typescript-eslint/indent": [ "error", "tab", {
